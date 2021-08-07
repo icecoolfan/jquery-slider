@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 28px;
+}
+h2, h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0;
+   
+}
+
+h2 a{
+    color: #333;
+}
+h2 a{
+    color: #222;
+}
+
+.item{
+    text-align: center;
+    margin: 0 a;
+}
+
+
+
+a{
+    text-decoration: none;
+    
+}
+
+#testimonial{
+background-color:#f63854 ;
+top: center;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.section-padding{
+    padding: 60px 0;
+}
+ .img-thum{
+    padding-top: 20px;
+    margin: 15px;
+    text-align: center;
+ }
+
+.img-thum img{
+    
+    border-radius: 50%;
+    width: inherit !important;
+    display: inline-block;
+    margin: auto;
+
+}
+
+
+.testimonial-item{
+    background-color: #fff;
+    margin: 0 15px;
+    border-radius: 10px;
+   padding: 30px;
+}
+.star-icon span{
+    color: #F63854;
+}
+
+.description p{
+    margin: 10px;
+    color:#222 ; 
+    
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 100%;
+        padding:0 60px;
+    }
+}
+
